@@ -1,14 +1,35 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
+import React from 'react';
 import './index.css';
-import App from './App';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+import "./index.css";
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+// Pages
+import Contact from "./pages/Contact";
+import Main from "./pages/Main";
+import Work from "./pages/Work";
 
-root.render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main/>,
+  },
+  {
+    path: "/kontakt",
+    element: <Contact/>,
+  },
+  {
+    path: "/prace",
+    element: <Work/>,
+  }
+]);
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
-);
+)
