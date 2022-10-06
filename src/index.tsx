@@ -4,11 +4,11 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 import "./index.css";
 
 // Pages
+import Navbar from './components/Navbar';
 import Contact from "./pages/Contact";
 import Main from "./pages/Main";
 import Work from "./pages/Work";
@@ -30,6 +30,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
+    <Navbar/>
     <RouterProvider router={router}/>
+    fdsfsdfds
+    
   </React.StrictMode>
 )
