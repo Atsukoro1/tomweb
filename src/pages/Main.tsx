@@ -8,10 +8,18 @@ const Main = () => {
       style={{ backgroundImage: 'url("/assets/background.webp")' }}
       className="bg-cover bg-center bg-no-repeat h-[93vh] w-full"
     >
-              <Shade src="/assets/shade1.png"/>
-              <Shade src="/assets/shade1.png"/>
+      {
+        [1].map((el, _) => {
+          return (
+            <Shade
+              src={`/assets/shade${el}.png`}
+              position={el}
+            />
+          )
+        })
+      }
 
-      <motion.header className="w-[1000px] mr-auto ml-auto text-center">
+      <motion.header className="w-[1000px] mr-auto ml-auto text-center mt-[-750px]">
         <motion.p 
           className="font-serif text-white text-[40px] mt-20"
           initial={{ opacity: 0 }}

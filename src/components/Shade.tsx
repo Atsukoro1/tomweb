@@ -1,14 +1,19 @@
 import { motion } from "framer-motion"
 
 interface IProps {
-    src: string
+    src: string,
+    position: number,
 }
 
-const Shade = ({ src }: IProps) => {
+const Shade = ({ src, position }: IProps) => {
   return (
     <motion.img
         src={src}
-        className="w-full h-full object-cover"
+        className={
+          `
+          w-full h-full object-cover
+          `
+        }
     />
   )
 }
