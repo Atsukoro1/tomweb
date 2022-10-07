@@ -32,7 +32,5 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <Navbar/>
     <RouterProvider router={router}/>
-    fdsfsdfds
-    
   </React.StrictMode>
 )

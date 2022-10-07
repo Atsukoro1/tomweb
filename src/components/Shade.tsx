@@ -5,13 +5,15 @@ interface IProps {
     position: number,
 }
 
-const Shade = ({ src, position }: IProps) => {
+const Shade = ({ src }: IProps) => {
   return (
     <motion.img
         src={src}
+        animate={{ x: [-100, 0, -100] }}
+        transition={{ duration: 4, delay: 0.3, repeat: Infinity }}
         className={
           `
-          w-full h-full object-cover
+          h-full w-[2400px] z-0 relative
           `
         }
     />
