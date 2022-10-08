@@ -1,8 +1,6 @@
 const Navbar = () => {
   return (
-    <div
-        className='w-full text-slate-500 h-15 shadow-inner bg-white'
-    >
+    <div className='w-full relative z-30 text-slate-500 h-15 shadow-inner bg-white'>
         <div className="p-5 w-[900px] mr-auto ml-auto grid grid-cols-2">
             <div>
                 <h1 className="text-[18px] font-serif tracking-widest font-normal">

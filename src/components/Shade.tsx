@@ -10,10 +10,10 @@ const Shade = ({ src }: IProps) => {
     <motion.img
         src={src}
         animate={{ x: [-100, 0, -100] }}
-        transition={{ duration: 4, delay: 0.3, repeat: Infinity }}
+        transition={{ duration: 2.5, delay: 0.3, repeat: Infinity }}
         className={
           `
-          h-full w-[2400px] z-0 relative
+          h-full w-[2400px] z-0
           `
         }
     />
