@@ -13,10 +13,6 @@ const Navbar = () => {
                     <a href='/'>Domů</a>
                 </li>
 
-                <li className="mr-6">
-                    <a href='/prace'>Práce</a>
-                </li>
-
                 <li className="">
                     <a href='/kontakt'>Kontakt</a>
                 </li>

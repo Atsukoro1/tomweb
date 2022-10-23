@@ -13,7 +13,7 @@ const Shade = ({ src }: IProps) => {
         transition={{ duration: 2.5, delay: 0.3, repeat: Infinity }}
         className={
           `
-          h-full w-[2400px] z-0
+          h-full w-[2400px] z-0 opacity-25
           `
         }
     />

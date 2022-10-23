@@ -27,7 +27,7 @@ const Main = () => {
 
   return (
     <div 
-      style={{ backgroundImage: 'url("/assets/background.webp")', fontFamily: "Lora" }}
+      style={{ backgroundImage: 'url("/assets/background.jpg")', fontFamily: "Lora" }}
       className="bg-cover bg-center bg-no-repeat h-[93vh] w-full bg-fixed"
     >
       {
@@ -43,7 +43,7 @@ const Main = () => {
 
       <header className="relative z-20 w-[400px] md:w-[700px] lg:w-[1000px] mr-auto ml-auto text-center mt-[-750px]">
         <motion.p 
-          className="text-white tracking-[4px] text-15px md:text-[20px] lg:text-[30px] mt-20"
+          className="text-black tracking-[4px] text-15px md:text-[20px] lg:text-[30px] mt-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -52,7 +52,7 @@ const Main = () => {
         </motion.p>
 
         <motion.h1 
-          className="tracking-[14px] text-white text-[50px] md:text-[70px] lg:text-[130px] md:mt-[0px] lg:mt-[-30px] mr-auto ml-auto"
+          className="tracking-[14px] text-black text-[50px] md:text-[70px] lg:text-[130px] md:mt-[0px] lg:mt-[-30px] mr-auto ml-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -79,26 +79,12 @@ const Main = () => {
             })
           }
         </div>
-
-        <motion.div 
-          className="w-fit mr-auto ml-auto mt-[140px] border-[5px] lg:border-[15px] border-white"
-          initial={{ opacity: 0, translateY: 100 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-        >
-          <ReactPlayer 
-            url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-            height={window.innerHeight / 2}
-            width={window.innerWidth < 2560 ? window.innerWidth / 1.75 : 900}
-            loop={true}
-          />
-        </motion.div>
       </header>
 
       <motion.section 
         className={`
           text-[#857e71] mr-auto ml-auto
-          w-[300px] md:w-[500px] lg:w-[900px] text-center mt-20 mb-20
+          w-[300px] md:w-[500px] lg:w-[900px] text-center mt-[500px] mb-20
         `}
         initial="offscreen"
         whileInView="onscreen"
@@ -129,13 +115,27 @@ const Main = () => {
         </p>
       </motion.section>
 
+      <motion.div 
+          className="w-fit mb-20 mr-auto ml-auto mt-[140px] border-[5px] lg:border-[15px] border-white"
+          initial={{ opacity: 0, translateY: 100 }}
+          animate={{ opacity: 1, translateY: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+        >
+          <ReactPlayer 
+            url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+            height={window.innerHeight / 2}
+            width={window.innerWidth < 2000 ? window.innerWidth / 1.75 : 900}
+            loop={true}
+          />
+        </motion.div>
+
       <section 
-        style={{ backgroundImage: 'url("/assets/background.webp")', fontFamily: "Lora" }}
+        style={{ backgroundImage: 'url("/assets/background.jpg")', fontFamily: "Lora" }}
         className="bg-center bg-no-repeat w-full bg-fixed bg-cover"
       >
         <span>&nbsp;</span>
 
-        <h1 className="text-center text-6xl mt-20 lg:mt-32 mb-[40px] lg:mb-0 text-white">
+        <h1 className="text-center text-6xl mt-20 lg:mt-32 mb-[40px] lg:mb-0 text-[#857e71]">
           Recenze
         </h1>
 

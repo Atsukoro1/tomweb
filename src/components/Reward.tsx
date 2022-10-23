@@ -5,7 +5,7 @@ const Reward = () => {
             data-bbox="14.213 79.37 538.526 408.1"
             viewBox="14.213 79.37 538.526 408.1"
             xmlns="http://www.w3.org/2000/svg"
-            fill="#fff"
+            fill="black"
             data-type="shape"
             role="presentation"
             aria-hidden="true"
