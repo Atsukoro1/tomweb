@@ -1,6 +1,5 @@
 import { motion, Variants } from "framer-motion"
 import Reward from "../components/Reward"
-import Shade from "../components/Shade"
 import ReactPlayer from "react-player"
 
 const Main = () => {
@@ -28,22 +27,13 @@ const Main = () => {
   return (
     <div 
       style={{ backgroundImage: 'url("/assets/background.jpg")', fontFamily: "Lora" }}
-      className="bg-cover bg-center bg-no-repeat h-[93vh] w-full bg-fixed"
+      className="bg-cover bg-center bg-no-repeat h-full w-full bg-fixed"
     >
-      {
-        [1].map((el, _) => {
-          return (
-            <Shade
-              src={`/assets/shade${el}.png`}
-              position={el}
-            />
-          )
-        })
-      }
+      <br />
 
-      <header className="relative z-20 w-[400px] md:w-[700px] lg:w-[1000px] mr-auto ml-auto text-center mt-[-750px]">
+      <header className="relative z-20 bg-transparent w-[400px] md:w-[700px] lg:w-[1000px] mr-auto ml-auto text-center mt-[50px]">
         <motion.p 
-          className="text-black tracking-[4px] text-15px md:text-[20px] lg:text-[30px] mt-20"
+          className="text-black tracking-[4px] text-15px md:text-[20px] lg:text-[30px] mt-15"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -84,7 +74,7 @@ const Main = () => {
       <motion.section 
         className={`
           text-[#857e71] mr-auto ml-auto
-          w-[300px] md:w-[500px] lg:w-[900px] text-center mt-[500px] mb-20
+          w-[300px] md:w-[500px] lg:w-[900px] text-center mt-[300px] mb-20
         `}
         initial="offscreen"
         whileInView="onscreen"
@@ -92,7 +82,7 @@ const Main = () => {
         viewport={{ once: false, amount: 0.8 }}
       >
         <h1 className="text-4xl lg:text-6xl">Lorem Ipsum</h1>
-        <div className="bg-[#857e71] inline-block w-[60px] h-1 mt-10">&nbsp;</div>
+        <div className="inline-block w-[60px] h-1 mt-10">&nbsp;</div>
         <p className="mt-3 w-[300px] md:w-[500px] lg:w-[700px] mr-auto ml-auto md:text-md lg:text-lg font-helvetica">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Ducimus deleniti dicta corrupti eligendi, minima, ipsum eos id assumenda illo
@@ -116,7 +106,7 @@ const Main = () => {
       </motion.section>
 
       <motion.div 
-          className="w-fit mb-20 mr-auto ml-auto mt-[140px] border-[5px] lg:border-[15px] border-white"
+          className="w-fit mb-20 mr-auto ml-auto z-10 mt-[140px] mb-[120px] border-[5px] lg:border-[15px] border-[#e3ded3]"
           initial={{ opacity: 0, translateY: 100 }}
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
@@ -131,11 +121,11 @@ const Main = () => {
 
       <section 
         style={{ backgroundImage: 'url("/assets/background.jpg")', fontFamily: "Lora" }}
-        className="bg-center bg-no-repeat w-full bg-fixed bg-cover"
+        className="bg-center bg-no-repeat w-full mt-[-200px] bg-fixed bg-cover mt-[50px]"
       >
-        <span>&nbsp;</span>
+        <span className="mt-[200px] w-full mb-[200px]">&nbsp;</span>
 
-        <h1 className="text-center text-6xl mt-20 lg:mt-32 mb-[40px] lg:mb-0 text-[#857e71]">
+        <h1 className="text-center text-6xl mt-[200px] lg:mt-32 mb-[40px] lg:mb-0 text-[#857e71]">
           Recenze
         </h1>
 
@@ -163,13 +153,13 @@ const Main = () => {
                 whileInView="onscreen"
                 viewport={{ once: false, amount: 0.8 }}
               >
-                <div className="w-[300px] h-fit bg-white mr-10 ml-10 lg:mt-10 lg:mb-10">
-                  <div className="w-[300px] h-fit p-5 bg-white">
+                <div className="w-[300px] h-fit mr-10 ml-10 lg:mt-10 lg:mb-10">
+                  <div className="w-[300px] h-fit p-5">
                     <p className="text-2xl mt-2 text-[#857e71]">
                       { el.text }
                     </p>
 
-                    <span className="bg-[#857e71] inline-block w-[60px] h-1 mt-5">&nbsp;</span>
+                    <span className="inline-block w-[60px] h-1 mt-5">&nbsp;</span>
 
                     <p>
                       { el.title }
@@ -182,12 +172,12 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="bg-sky-900">
+      <section className="bg-[#f2eadc]">
         <div className="grid grid-cols-2 w-[1100px] ml-auto mr-auto">
           <span>&nbsp;</span>
 
           <div className="float-right text-right">
-            <button onClick={backToTop} className="bg-sky-700 text-sky-300 p-2">
+            <button onClick={backToTop} className="bg-[#857E71] opacity-70 text-white p-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
               </svg>
@@ -195,17 +185,17 @@ const Main = () => {
           </div>
         </div>
 
-        <h1 className="text-white text-center text-4xl mt-10">Lorem Ipsum</h1>
+        <h1 className="text-[#857E71] text-center text-4xl mt-10">Lorem Ipsum</h1>
 
         <div className="mt-3 mb-20 w-[500px] mr-auto ml-auto text-center outline-none">
           <div className="inline">
             <input 
               type="text"
-              className="bg-sky-800 border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
+              className="bg-[#857E71] placeholder-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
               placeholder="Lorem Ipsum"
             />
 
-            <button className="ml-3 bg-white text-sky-800 h-[40px] w-[90px]">Send</button>
+            <button className="ml-3 bg-[#857E71] text-[#f2eadc] h-[40px] w-[90px]">Send</button>
           </div>
         </div>
 

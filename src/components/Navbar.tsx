@@ -1,20 +1,26 @@
 const Navbar = () => {
   return (
-    <div className='w-full relative z-30 text-slate-500 h-15 shadow-inner bg-white'>
-        <div className="p-5 w-[900px] mr-auto ml-auto grid grid-cols-2">
-            <div>
-                <h1 className="text-[18px] font-serif tracking-widest font-normal">
-                    Tomáš Dorničák
-                </h1>
-            </div>
-
-            <ul className='flex w-fit ml-auto'>
+    <div className='w-full relative z-30 text-slate-500 h-15 shadow-md bg-white'>
+        <div className="p-5 w-full">
+            <ul className='flex flex-row w-fit ml-auto mr-auto'>
                 <li className="mr-6">
                     <a href='/'>Domů</a>
                 </li>
 
-                <li className="">
+                <li className="mr-6">
                     <a href='/kontakt'>Kontakt</a>
+                </li>
+
+                <li className="mr-6">
+                    <a href='/tvorba'>Tvorba</a>
+                </li>
+
+                <li className="mr-6">
+                    <a href='/kontakt'>Lorem</a>
+                </li>
+
+                <li className="mr-6">
+                    <a href='/kontakt'>Lorem</a>
                 </li>
             </ul>
         </div>
