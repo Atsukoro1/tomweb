@@ -93,17 +93,6 @@ const Main = () => {
           ex deleniti expedita ducimus voluptates natus quis, quos, non accusamus. Ut, autem
           reiciendis!
         </p>
-
-        <h3 className="text-3xl lg:text-4xl mt-16">Lorem Ipsum</h3>
-        <p className="mt-4 lg:w-[700px] w-[300px] md:w-[500px] md:text-md lg:text-lg ml-auto mr-auto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Ducimus deleniti dicta corrupti eligendi, minima, ipsum eos id assumenda illo
-          la udantium perspiciatis molestias asperiores numquam modi, laborum corporis
-          earum nostrum repellendus? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Dignissimos dicta at accusantium iste nulla enim, reprehenderit perferendis
-          ex deleniti expedita ducimus voluptates natus quis, quos, non accusamus. Ut, autem
-          reiciendis!
-        </p>
       </motion.section>
 
       <motion.div 
