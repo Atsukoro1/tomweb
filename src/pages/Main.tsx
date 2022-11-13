@@ -1,6 +1,7 @@
 import { motion, Variants } from "framer-motion"
 import Reward from "../components/Reward"
 import ReactPlayer from "react-player"
+import ContactForm from "../components/ContactForm";
 
 const Main = () => {
   function backToTop() {
@@ -38,7 +39,7 @@ const Main = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Lorem ipsum dolor sit amet
+          S vědomím k jednotlivosti, s úctou k celku
         </motion.p>
 
         <motion.h1 
@@ -47,23 +48,23 @@ const Main = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          Lorem
+          Hlasy Země
         </motion.h1>
 
         <div className="flex justify-center md:mt-0 lg:mt-[-25px]">
           {
-            [0, 1, 2]
-            .map((el: number, key: number) => {
+            ["Živost", "Propojenost", "Přirozenost"]
+            .map((el: String, key: number) => {
               return (
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ 
                     duration: 0.5, 
-                    delay: key === 2 ? 1 : 0.3 * el
+                    delay: key === 2 ? 1 : 0.3 * key
                   }}
                 >
-                    <Reward/>
+                    <Reward text={el}/>
                 </motion.div>
               )
             })
@@ -172,35 +173,7 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="bg-[#f2eadc]">
-        <div className="grid grid-cols-2 w-[1100px] ml-auto mr-auto">
-          <span>&nbsp;</span>
-
-          <div className="float-right text-right">
-            <button onClick={backToTop} className="bg-[#857E71] opacity-70 text-white p-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <h1 className="text-[#857E71] text-center text-4xl mt-10">Lorem Ipsum</h1>
-
-        <div className="mt-3 mb-20 w-[500px] mr-auto ml-auto text-center outline-none">
-          <div className="inline">
-            <input 
-              type="text"
-              className="bg-[#857E71] placeholder-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
-              placeholder="Lorem Ipsum"
-            />
-
-            <button className="ml-3 bg-[#857E71] text-[#f2eadc] h-[40px] w-[90px]">Send</button>
-          </div>
-        </div>
-
-        <span className="h-30 w-full">&nbsp;</span>
-      </section>
+      <ContactForm/>    
     </div>
   )
 }

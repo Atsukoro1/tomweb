@@ -12,6 +12,9 @@ import Navbar from './components/Navbar';
 import Contact from "./pages/Contact";
 import Main from "./pages/Main";
 import Work from "./pages/Work";
+import Photogallery from './pages/Photogallery';
+import Zahrady from './pages/Zahrady';
+import OrezStromu from './pages/OrezStromu';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,18 @@ const router = createBrowserRouter([
   {
     path: "/prace",
     element: <Work/>,
+  },
+  {
+    path: "/fotogalerie",
+    element: <Photogallery/>
+  },
+  {
+    path: "/zahrady",
+    element: <Zahrady/>
+  },
+  {
+    path: "/orezstromu",
+    element: <OrezStromu/>
   }
 ]);
 
