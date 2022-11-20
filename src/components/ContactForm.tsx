@@ -35,7 +35,7 @@ const ContactForm = () => {
     }
 
     return (
-      <section className="bg-[#f2eadc]">
+      <section className="">
           <div className="grid grid-cols-2 w-[1100px] ml-auto mr-auto">
             <span>&nbsp;</span>
 
@@ -54,7 +54,7 @@ const ContactForm = () => {
             <input 
                 type="text"
                 name="name"
-                className="bg-[#857E71] placeholder-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
+                className="placeholder-[#857E71] bg-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
                 placeholder="Váš email"
             />
 
@@ -62,7 +62,7 @@ const ContactForm = () => {
                 type="tel" 
                 id="phone" 
                 name="phone" 
-                className="bg-[#857E71] placeholder-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
+                className="placeholder-[#857E71] bg-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
                 placeholder="Vaše telefonní číslo"
             />
             <br/>
@@ -70,14 +70,14 @@ const ContactForm = () => {
             <textarea 
                 name="content"
                 cols={4}
-                className="bg-[#857E71] placeholder-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
+                className="placeholder-[#857E71] bg-[#f2eadc] border-white outline-none border-solid border-3 w-[300px] text-white p-2 mt-5"
                 placeholder="Zpráva"
             />
             <br />
 
             <button 
                 type="submit" 
-                className="mt-4 hover:cursor-pointer hover:opacity-90 ml-3 bg-[#857E71] text-[#f2eadc] h-[40px] w-[90px]">
+                className="mt-4 hover:cursor-pointer hover:opacity-90 ml-3 text-[#857E71] bg-[#f2eadc] h-[40px] w-[90px]">
                     Odeslat
             </button>
           </form>
