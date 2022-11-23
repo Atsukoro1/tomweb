@@ -31,7 +31,6 @@ const Main = () => {
       className="bg-cover bg-center bg-no-repeat h-full w-full bg-fixed"
     >
       <br />
-
       <header className="relative z-20 bg-transparent w-[400px] md:w-[700px] lg:w-[1000px] mr-auto ml-auto text-center mt-[50px]">
         <motion.p
           className="text-gray-400 tracking-[4px] text-15px md:text-[17px] lg:text-[25px] mt-15"
@@ -85,13 +84,12 @@ const Main = () => {
         <h1 className="text-4xl lg:text-5xl text-gray-600">K nám lidem...</h1>
         <div className="inline-block w-[60px] mb-0 h-1">&nbsp;</div>
         <p className="mt-3 font-medium text-gray-600 w-[300px] md:w-[500px] lg:w-[700px] mr-auto ml-auto md:text-md lg:text-lg font-helvetica">
-          vše co kolem nás nazýváme přírodou, nás vybízí vždy k zamyšlení. 
+          Vše co kolem nás nazýváme přírodou, nás vybízí vždy k zamyšlení. 
           Vidíme v ní nejširší paletu barev, odstínů a tónů, které se vzájemně doplňují.
           Každá část se pojí s druhou a společně hrají krásnou píseň Harmonie. 
           Vše je tak přirozeně a prostě viditelné a my máme tu čest být její součástí. 
           Příroda je snad jediným našim opravdovým vzorem, odkud můžeme čerpat inspirace ke spolupráci, k vytváření lidských zákonů a ke správnému používání symbiózy práv a povinností – k rovnováze.
           <div className="mt-5 mb-5"/>
-          <p className="text-2xl tracking-widest mb-2 mt-[-25px]">..........................</p>
           Naučme se vyvíjet toto umění k dokonalosti
         </p>
       </motion.section>

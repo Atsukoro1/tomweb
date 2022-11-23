@@ -1,41 +1,78 @@
 const OrezStromu = () => {
   return (
-    <div>
-      Symbióza ořezávání ovocných stromů
+    <div className="text-center mt-20 w-[500px] mr-auto ml-auto">
+      <b><i className="underline">Symbióza ořezávání ovocných stromů</i></b>
+      <br /><br />
+      <b><i></i>stabilita - potřeby – péče – estetika a přání vlastníka</b>
+      <br /><br />
+      <i>
+        S ořezem stromů je to jako se vztahem člověka k člověku. Mojí snahou
+      </i>
+      <br /><br />
+      <i>
+        je přistupovat k řezu stromů dle výše zmíněných základních principů
+      </i>
+      <br /><br />
+      <i>
+        Citlivě vystihnout jejich vzájemnou symbiózu a na základě vyhodnocení situace volit 
+        správný důraz na každou z nich.
+      </i>
+      <i>
+        Prvotním záměrem musí být stabilita celé kostry a od ní se odvíjející podmínky dané 
+        rozdílností druhů a jejich okolí
+      </i>
+      <br /> <br />
+      <i>
+        V neposlední řadě dávám důraz na konečnou estetiku koruny, tak jako na konkrétní přání 
+        jejího majitele.
+        <br />
+        Všechny tyto aspekty dohromady dávají
+      </i>
 
-      stabilita - potřeby – péče – estetika a přání vlastníka
+      <br /><br />
+      <b><i>
+        citlivému řezu punc krásného umění
+      </i></b>
+      <br />
+      <b>……………………………………………………………………………….</b>
+      <br /><br />
+      <i>
+        Ideální doba pro řez peckovin (třešní, švestek, meruněk aj.) je - po sklizni
+      </i>
+      <br /><br />
+      <i>
+        Mnozí ořezávají i v předjaří a někteří dokonce i v době květu. Pokud možno, jsem zastáncem ořezu po sklizni, neboť v té době peckoviny nejméně tečou (klejotok)
+      </i>
+      <br /><br />
+      <i>
+        Jádroviny (jablka, hrušky aj.) naopak řežeme v předjaří, jakmile pominou poslední denní mrazíky. Nebo na podzim jako naši předci, ale jen do doby začátku denních (ne nočních) mrazíků, jelikož dřevo je v tuto dobu příliš křehké a necitlivě provedený řez by mohl vést k napadení různými chorobami. Také je dobré počkat s řezem alespoň do částečného opadu listů, kdy je zjevné, že míza společně s živinami se stahují na zimu do kořenů. Pro větší řezy je ideálnějším obdobím předjaří.
+      </i>
+      <br /><br />
+      <i>
+        Suché větve můžeme ořezávat téměř kdykoliv. Pouze u švestek v hlubším podzimu rány poctivě zamažeme stromovým balzámem, voskem nebo i hlínou. Hlínu preferuji já, neboť i malá vrstva vytvoří určitý „neviditelný film“, který strom vnímá jako tendenci se lépe přizpůsobit a správně hojit.
+      </i>
+      <br /><br />
+        
+      <i>
+        <b className="underline">
+        Ceník:
+        </b>
+      </i>
+      <br />
 
-      S ořezem stromů je to jako se vztahem člověka k člověku. Mojí snahou
-        
-      je přistupovat k řezu stromů dle výše zmíněných základních principů
-        
-      Citlivě vystihnout jejich vzájemnou symbiózu a na základě vyhodnocení situace volit správný důraz na každou z nich.
-        
-      Prvotním záměrem musí být stabilita celé kostry a od ní se odvíjející podmínky dané rozdílností druhů a jejich okolí
-        
-      V neposlední řadě dávám důraz na konečnou estetiku koruny, tak jako na konkrétní přání jejího majitele.
-        
-      Všechny tyto aspekty dohromady dávají
-        
-      citlivému řezu punc krásného umění
-        
-      ……………………………………………………………………………….
-        
-      Ideální doba pro řez peckovin (třešní, švestek, meruněk aj.) je - po sklizni
-        
-      Mnozí ořezávají i v předjaří a někteří dokonce i v době květu. Pokud možno, jsem zastáncem ořezu po sklizni, neboť v té době peckoviny nejméně tečou (klejotok)
-        
-      Jádroviny (jablka, hrušky aj.) naopak řežeme v předjaří, jakmile pominou poslední denní mrazíky. Nebo na podzim jako naši předci, ale jen do doby začátku denních (ne nočních) mrazíků, jelikož dřevo je v tuto dobu příliš křehké a necitlivě provedený řez by mohl vést k napadení různými chorobami. Také je dobré počkat s řezem alespoň do částečného opadu listů, kdy je zjevné, že míza společně s živinami se stahují na zimu do kořenů. Pro větší řezy je ideálnějším obdobím předjaří.
-        
-      Suché větve můžeme ořezávat téměř kdykoliv. Pouze u švestek v hlubším podzimu rány poctivě zamažeme stromovým balzámem, voskem nebo i hlínou. Hlínu preferuji já, neboť i malá vrstva vytvoří určitý „neviditelný film“, který strom vnímá jako tendenci se lépe přizpůsobit a správně hojit.
-        
-      Ceník:
-        
+      <i>
       práce 290kč/hod.
-        
+      <br />
       doprava na místo a zpět 7kč/km
-        
+      <br />
       odvoz materiálu dle objemu
+      </i>
+      <br /><br />
+
+      <i>Veškeré práce provádím především v okolí Kroměříže a částečně i v okolí Zlína. Pod cením s mezerou napiš: Úvodní konzultace 250kč/hod. a pod to doprava na místo a zpět 7kč/km</i>
+
+      <br /><br />
+      <img src="https://i.postimg.cc/25fgRW5k/image.png" alt="" />
     </div>
   )
 }

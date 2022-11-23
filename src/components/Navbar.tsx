@@ -8,7 +8,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="mr-6 text-lg">
-                    <a href='/zahrady'>Zahrady</a>
+                    <a href='/zahrady'>Zahradnické práce</a>
                 </li>
 
                 <li className="mr-6 text-lg">
