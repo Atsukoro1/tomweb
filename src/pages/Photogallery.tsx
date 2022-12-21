@@ -36,7 +36,7 @@ const Photogallery = () => {
                       <img 
                           src={`/assets/photogallery/foto${klic}.jpg`} 
                           alt="" 
-                          className="p-4 w-full h-full object-cover hover:cursor-pointer hover:opacity-50" 
+                          className="p-4 w-full h-full object-cover hover:cursor-pointer hover:opacity-50 rounded-lg" 
                       />
                   </div>
                 )

@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <div className='w-full relative z-30 text-slate-500 h-15 shadow-md bg-white'>
-        <div className="p-5 w-full">
+    <div className='w-full relative z-30 text-slate-500 h-15 shadow-xl bg-white'>
+        <div className="p-3 w-full">
             <ul className='flex flex-row w-fit ml-auto mr-auto'>
                 <li className="mr-6 text-lg">
                     <a href='/'>Domů</a>

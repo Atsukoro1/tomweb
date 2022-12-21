@@ -1,9 +1,10 @@
 const OrezStromu = () => {
   return (
     <div className="text-center mt-20 w-[500px] mr-auto ml-auto">
+      <img src="https://i.postimg.cc/MKKRVRdj/image.png" style={{ height: "100px", width: "100px" }} alt="" />
       <b><i className="underline">Symbióza ořezávání ovocných stromů</i></b>
       <br /><br />
-      <b><i></i>stabilita - potřeby – péče – estetika a přání vlastníka</b>
+      <i className="text-lg">stabilita - potřeby – péče – estetika a přání vlastníka</i>
       <br /><br />
       <i>
         S ořezem stromů je to jako se vztahem člověka k člověku. Mojí snahou
@@ -30,9 +31,9 @@ const OrezStromu = () => {
       </i>
 
       <br /><br />
-      <b><i>
+      <i className="text-lg">
         citlivému řezu punc krásného umění
-      </i></b>
+      </i>
       <br />
       <b>……………………………………………………………………………….</b>
       <br /><br />
@@ -54,9 +55,9 @@ const OrezStromu = () => {
       <br /><br />
         
       <i>
-        <b className="underline">
+        <i className="underline text-lg">
         Ceník:
-        </b>
+        </i>
       </i>
       <br />
 
@@ -69,7 +70,7 @@ const OrezStromu = () => {
       </i>
       <br /><br />
 
-      <i>Veškeré práce provádím především v okolí Kroměříže a částečně i v okolí Zlína. Pod cením s mezerou napiš: Úvodní konzultace 250kč/hod. a pod to doprava na místo a zpět 7kč/km</i>
+      <i>Veškeré práce provádím především v okolí Kroměříže a částečně i v okolí Zlína. Úvodní konzultace 270kč/hod + doprava 7kč/km. </i>
 
       <br /><br />
       <img src="https://i.postimg.cc/25fgRW5k/image.png" alt="" />

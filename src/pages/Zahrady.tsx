@@ -1,6 +1,11 @@
 const Zahrady = () => {
   return (
     <div className="mr-auto ml-auto w-[500px] text-center mt-20 mb-20">
+      <img
+        src="https://i.postimg.cc/25fgRW5k/image.png" 
+        alt="" 
+      />
+      <br />
       <b><i className="underline">Zahradnické práce</i></b>
       <br /><br />
 
@@ -65,7 +70,10 @@ const Zahrady = () => {
       </i>
 
       <br /><br />
-      <img src="https://i.postimg.cc/25fgRW5k/image.png" alt="" />
+      <img
+        src="https://i.postimg.cc/25fgRW5k/image.png" 
+        alt="" 
+      />
     </div>
   )
 }

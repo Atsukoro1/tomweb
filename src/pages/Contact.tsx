@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <motion.h1 className="text-4xl text-[#857e71] mb-7 mt-20">Kontakt</motion.h1>
 
-      <div className="grid grid-cols-2 grid-gap-2 w-[800px]">
+      <div className="grid grid-cols-1 grid-gap-2 mt-[100px] w-[800px]">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -19,6 +19,7 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
+          className="mt-[100px]"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
