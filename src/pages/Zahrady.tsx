@@ -1,7 +1,15 @@
 const Zahrady = () => {
 	return (
-		<div className="mr-auto ml-auto w-[500px] text-center mt-20 mb-20">
-			<img src="/assets/cutted.png" alt="" />
+		<div style={{
+			backgroundImage: "url(/assets/nut.jpg)",
+			backgroundSize: "cover",
+			backgroundPosition: "center"
+		}}>
+			&nsbp;
+	
+	<div 
+			className="mr-auto ml-auto w-[500px] text-center mt-20"
+		>
 			<br />
 			<b>
 				<i className="underline">Zahradnické práce</i>
@@ -83,7 +91,7 @@ const Zahrady = () => {
 
 			<br />
 			<br />
-			<img src="/assets/cutted.png" alt="" />
+		</div>
 		</div>
 	);
 };
